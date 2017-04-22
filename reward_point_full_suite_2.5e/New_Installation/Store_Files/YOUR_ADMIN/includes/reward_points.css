@@ -1,0 +1,20 @@
+#prompt
+{
+	float: left;
+	width:50%;
+	text-align:right;
+}
+
+#field
+{
+	float: right;
+	width:50%;
+	text-align:left;
+}
+
+#numfield
+{
+	float: left;
+	width:80px;
+	text-align:right;
+}

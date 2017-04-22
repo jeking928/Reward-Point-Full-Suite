@@ -1,0 +1,77 @@
+/**
+ * Reward Points CSS Stylesheet
+ *
+ * @package templateSystem
+ * @copyright Copyright 2007 Andrew Moore
+ * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+ */
+
+/*Override inputLabel style to get rid of ugly label word wrapping*/
+label.inputLabel 
+{
+	float:left;
+	width:20em;
+}
+
+.inputLabel 
+{
+	font-size:1.1em;
+	line-height:1.5em;
+	vertical-align: middle;
+	padding:0.2em;	
+	float:left;
+	width:20em;
+}
+
+.inputField
+{
+	font-size:1.1em;
+	line-height:1.5em;
+	vertical-align: middle;
+	padding:0.2em;	
+	float:left;
+}
+
+/*wrappers - page or section containers*/
+#rewardWrapper 
+{
+	background-color: #ffffff;
+	text-align: left;
+	width: 1000px;
+	vertical-align: top;
+	border: 0px solid #9a9a9a;
+	border-bottom: 5px solid #330099;
+}
+
+.productRewardPoints
+{
+	margin: 0em;
+	color: #FF0000;
+}
+
+.cartBoxRewardPoints
+{
+	margin:0pt;
+	padding:0.2em 0em;
+	color: #FF0000;
+	font-weight:bold;
+	text-align:right;
+}
+
+.cartBoxEarnedPoints
+{
+	margin:0pt;
+	padding:0.2em 0em;
+	color: #FF0000;
+	font-weight:bold;
+	text-align:right;
+}
+
+.cartBoxPendingPoints
+{
+	margin:0pt;
+	padding:0.2em 0em;
+	color: #FF8040;
+	font-weight:bold;
+	text-align:right;
+}
